@@ -12,4 +12,6 @@ elif option == "reiniciar":
     os.system("shutdown /r /f /t 0")  # Reiniciar o computador imediatamente
 else:
     print("Opção inválida. Use 'desligar' ou 'reiniciar'.")
-  
+
+""" O parâmetro /s é usado para desligar e /r para reiniciar, ambos com um atraso de 0 segundos (/t 0), o que significa
+que a ação ocorrerá imediatamente. O parâmetro /f é usado para forçar o fechamento de aplicativos em execução. """
